@@ -1,2 +1,14 @@
 .DS_Store
 wordpress*
+skeleton/about.html~
+skeleton/about2.html~
+skeleton/assets/css/bootstrap.css~
+skeleton/assets/css/custom.css~
+skeleton/assets/img/uscauvlogo1.png
+skeleton/assets/img/uscauvlogo2.png
+skeleton/assets/img/uscauvlogo3.png
+skeleton/index.html~
+skeleton/media.html~
+skeleton/sponsors.html~
+uscrs-theme/header.php~
+.gitignore~
