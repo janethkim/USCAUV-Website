@@ -1,3 +1,4 @@
+
 .nav-logo
 {
   float: right;
@@ -48,9 +49,15 @@ div#header_wrapper
 {
   position: relative;
   top: 0;
-  height: 400px;
-  background: #4da1aa;
-  background-image: url('../img/header-background.png')
+  height: 250px;
+  margin: 0;
+	background-image: linear-gradient(top, #900 30%, #600 70%);
+	background-image: -o-linear-gradient(top, #900 30%, #600 70%);
+	background-image: -moz-linear-gradient(top, #900 30%, #600 70%);
+	background-image: -webkit-linear-gradient(top, #900 30%, #600 70%);
+	background-image: -ms-linear-gradient(top, #900 30%, #600 70%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.3, #900),color-stop(0.7, #600));
+														
 }
 
 div#header
@@ -74,7 +81,7 @@ div#slide
 div#slide div#leftcol
 {
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
   float: left
 }
 
@@ -87,23 +94,25 @@ div#slide div#rightcol
 
 div#slide div#socialmedia
 {
-  padding-top: 125px;
+  padding-top: 15px;
 }
 
 div#slide p.title
 {
-  font-size: 50px;
-  color: #111;
-  font-family: serif;
-  text-shadow: 1px 3px 12px #333 
+  font-size: 80px;
+  color: #fff;
+  letter-spacing: -7px;
+  font-family: "Times New Roman", serif; 
+  font-weight: 500;   
+ 
 }
 
 div#slide p.subtitle
 {
-  font-size: 26px;
+  font-size: 20px;
   color: #eee;
-  font-family: serif;
-  text-shadow: 1px 3px 12px #333 
+  font-family: "Times New Roman", serif;
+   
 }
 
 div#who
@@ -193,3 +202,4 @@ div#extra .container
   padding-right: 30px;
   color: #eee
 }
+
